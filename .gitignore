@@ -1,0 +1,21 @@
+# Editor files
+.idea
+*.tmp
+*~
+
+# Output of the go coverage tool
+*.out
+
+# Test files
+*.test
+.db/
+
+# Skip vendor directory
+vendor/
+
+# Skip binary
+build-web
+
+# Ignore temporary files, config and helper scripts
+storage/
+*.dump
